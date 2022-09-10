@@ -1,18 +1,13 @@
 import Image from "next/image";
 import css from "../styles/Header.module.css";
-import Logo from "./../assets/Logo.png";
 import { UilShoppingBag } from "@iconscout/react-unicons";
+import Logo from "./Logo";
 
 export default function Header() {
   return (
     <div className={css.header}>
       {/* logo side */}
-      <div className={css.logo}>
-        <Image src={Logo} alt="" width={50} height={50} />
-        <span>
-          Ice<span>Burg</span>
-        </span>
-      </div>
+      <Logo />
 
       {/* menu side */}
       <ul className={css.menu}>

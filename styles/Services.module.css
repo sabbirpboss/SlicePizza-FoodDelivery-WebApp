@@ -1,0 +1,50 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.heading > :nth-child(1) {
+  font-size: 1rem;
+  color: var(--themeRed);
+}
+
+.heading > :nth-child(2),
+.heading > :nth-child(3) {
+  font-size: 2rem;
+}
+
+/* services */
+.services {
+  display: flex;
+  margin-top: 3rem;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.imageWrapper {
+  width: 10rem;
+  height: 10rem;
+}
+
+.feature > :nth-child(2) {
+  font-weight: bold;
+}
+.feature > :nth-child(3) {
+  color: var(--gray);
+  word-wrap: break-word;
+  width: 20rem;
+  text-align: center;
+}

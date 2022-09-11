@@ -1,4 +1,3 @@
-import Image from "next/image";
 import css from "../styles/Header.module.css";
 import { UilShoppingBag } from "@iconscout/react-unicons";
 import Logo from "./Logo";

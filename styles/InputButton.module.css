@@ -1,0 +1,48 @@
+/* input, button and place order */
+.inputBtnDiv {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.inputBtnDiv > input {
+  width: max-content;
+  padding: 1rem;
+  border-radius: 4rem;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  border: 1px solid var(--themeRed);
+}
+
+.inputBtnDiv > input::placeholder {
+  /* modern browser */
+  color: var(--themeRed);
+  opacity: 30%;
+}
+.inputBtnDiv > input {
+  color: var(--themeRed);
+  border: 2px solid var(--themeRed);
+}
+
+.inputBtnDiv > input:focus {
+  outline: green;
+  border: 2px solid var(--gray);
+  transform: scale(1.1);
+}
+
+.inputBtn {
+  width: max-content;
+  padding: 1rem;
+  border-radius: 4rem;
+  border: none;
+  color: white!important;
+  font-size: 1.1rem;
+  cursor: pointer;
+  background-color: var(--themeRed);
+}
+
+.inputBtn:hover {
+  opacity: 80%;
+  transform: scale(1.1);
+}

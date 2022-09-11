@@ -23,6 +23,12 @@
   font-weight: bold;
 }
 
+.cherryDiv:hover{
+  transform: scale(1.5);
+  margin-left: 5rem;
+  cursor: default;
+}
+
 /* hero text */
 .heroText {
   display: flex;

@@ -44,10 +44,13 @@ export default function Hero() {
         <div className={css.imageContainer}>
           <Image src={HeroImage} alt="" layout="intrinsic" />
         </div>
+
+        {/* fot 4 dots */}
         <span className={css.dot1}></span>
         <span className={css.dot2}></span>
         <span className={css.dot3}></span>
         <span className={css.dot4}></span>
+
         <div className={css.contactUs}>
           <span>Contact Us</span>
           <div>

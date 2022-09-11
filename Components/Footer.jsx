@@ -5,7 +5,7 @@ import Logo from "./Logo";
 
 export default function Footer() {
   return (
-    <div className={css.container}>
+    <div className={css.footer}>
       <span>ALL RIGHT RESERVED</span>
       <div className={css.social}>
         <UilFacebook size={45} />

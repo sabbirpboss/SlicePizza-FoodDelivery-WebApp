@@ -1,4 +1,10 @@
-.container {
+@media screen and (min-width: 1920px) {
+  .footer {
+    padding: 0 9rem !important;
+  }
+}
+
+.footer {
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -12,7 +18,7 @@
   );
 }
 
-.container > span {
+.footer > span {
   color: var(--themeRed);
   font-weight: bold;
 }

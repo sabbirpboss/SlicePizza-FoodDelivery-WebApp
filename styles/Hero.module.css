@@ -47,7 +47,7 @@
 
 /* default width */
 .imageContainer {
-  width: 30rem;
+  width: 35rem;
   margin-top: 3rem;
 }
 
@@ -57,6 +57,47 @@
     width: 25rem;
     margin-top: 3rem;
   }
+}
+.dot1 {
+  background: var(--yellow);
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 5rem;
+  left: 20rem;
+  transform: translate(-50%, -50%);
+}
+
+.dot2 {
+  background: var(--themeRed);
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 16rem;
+  left: -1rem;
+  transform: translate(-50%, -50%);
+}
+.dot3 {
+  background: var(--yellow);
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 24rem;
+  left: -4rem;
+  transform: translate(-50%, -50%);
+}
+.dot4 {
+  background: var(--themeRed);
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 8rem;
+  left: 6rem;
+  transform: translate(-50%, -50%);
 }
 
 /* contact us */
@@ -69,11 +110,19 @@
   padding: 0.7rem 1rem;
   border-radius: 5rem;
   top: 3rem;
-  left: -9rem;
+  left: -17rem;
   gap: 1rem;
   background-color: white;
   box-shadow: var(--shadow);
   color: var(--themeRed);
+}
+
+/* responsive for maximum width 1440px */
+@media screen and (max-width: 1440px) {
+  .contactUs {
+    top: 3rem;
+    left: -9rem;
+  }
 }
 
 .contactUs > div {
@@ -109,7 +158,7 @@
   cursor: pointer;
 }
 
-/* responsive for max 1440px */
+/* responsive for maximum width 1440px */
 @media screen and (max-width: 1440px) {
   .pizza {
     bottom: 5rem;

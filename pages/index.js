@@ -4,8 +4,12 @@ import Footer from "../Components/Footer";
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
 import Services from "../Components/Services";
+import { client } from "../lib/client";
+import Menu from "../Components/Menu";
 
-export default function Home() {
+export default function Home({pizzas}) {
+
+  // console.log(pizzas);
   return (
     <>
       <Header />
@@ -19,9 +23,18 @@ export default function Home() {
         <main>
           <Hero />
           <Services />
+          <Menu pizzas={pizzas} />
         </main>
       </div>
       <Footer />
     </>
   );
 }
+
+export const getServerSideProps = async () => {
+  const query = '*[_type == "pizza"]';
+  const pizzas = await client.fetch(query);
+  return {
+    props: { pizzas },
+  };
+};

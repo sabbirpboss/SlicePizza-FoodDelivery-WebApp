@@ -19,9 +19,7 @@ export default function Header() {
       <div className={css.rightSide}>
         <div className={css.cart}>
           <UilShoppingBag size={35} color="#2e2e2e" />
-          <div className={css.badge}>
-            1
-          </div>
+          <div className={css.badge}>1</div>
         </div>
       </div>
     </div>

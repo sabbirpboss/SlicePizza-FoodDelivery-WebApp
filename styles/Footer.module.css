@@ -1,8 +1,8 @@
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
   .footer {
     padding: 0 9rem !important;
   }
-}
+} */
 
 .footer {
   display: flex;

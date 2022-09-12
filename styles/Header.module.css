@@ -1,8 +1,8 @@
-@media screen and (min-width: 1920px) {
+/* @media screen and (min-width: 1920px) {
   .header {
     padding: 0 9rem !important;
   }
-}
+} */
 
 .header {
   display: flex;
@@ -37,6 +37,10 @@
     display: flex;
     cursor: pointer;
     z-index: 99;
+}
+
+.cart:hover{
+  transform: scale(1.3);
 }
 
 .badge{

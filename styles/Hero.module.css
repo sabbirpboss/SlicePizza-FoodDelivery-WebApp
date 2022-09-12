@@ -115,11 +115,12 @@
   padding: 0.7rem 1rem;
   border-radius: 5rem;
   top: 3rem;
-  left: 22rem;
+  left: 25.3rem;
   gap: 1rem;
-  background-color: white;
+  background-color: #f1f1f1;
   box-shadow: var(--shadow);
-  color: var(--themeRed);
+  color: rgb(59, 208, 59);
+  font-size: 1.2rem;
   font-family: 'Dancing Script', sans-serif;
 }
 
@@ -132,13 +133,13 @@
 }
 
 .contactUs > div {
-  background: rgb(59, 208, 59);
-  border-radius: 50%;
-  width: 2.5rem;
+  /* background: var(--themeRed); */
+  border-radius: 500%;
+  width: 3rem;
+  height: 2.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2.5rem;
 }
 
 .contactUs:hover {
@@ -155,7 +156,7 @@
   border-radius: 0.5rem;
   position: absolute;
   bottom: 5rem;
-  left: 16rem;
+  left: 21.8rem;
   width: max-content;
 }
 

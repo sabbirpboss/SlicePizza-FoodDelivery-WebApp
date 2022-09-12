@@ -5,6 +5,10 @@
     gap: 0.5rem;
     flex: 1;
   }
+
+  .logo:hover{
+    cursor: pointer;
+  }
   
   .logo > span {
     font-family: 'Popins', sans-serif;
@@ -15,8 +19,4 @@
     /* text-shadow: -1px 1px 3px #ffd54f; */
     
   font-family: 'Dancing Script', sans-serif;
-  }
-  .logo > span > span {
-    /* color: #ffd54f; */
-    /* text-shadow: 2px 2px 3px #f54748; */
   }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import css from "../styles/Hero.module.css";
 import cherry from "./../assets/Cherry.png";
+import contact from "./../assets/contact.gif";
 import HeroImage from "./../assets/HeroImage.png";
 import InputButton from "./InputButton";
 import { UilPhone } from "@iconscout/react-unicons";
@@ -54,7 +55,8 @@ export default function Hero() {
         <div className={css.contactUs}>
           <span>Contact Us</span>
           <div>
-            <UilPhone color="White" />
+            {/* <UilPhone color="White" /> */}
+            <Image src={contact} alt="" />
           </div>
         </div>
 

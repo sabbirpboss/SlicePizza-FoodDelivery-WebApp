@@ -12,6 +12,21 @@ body {
   overflow-x:hidden;
 }
 
+main {
+  padding: 0 1.5rem;
+}
+
+@media screen and (min-width: 1920px) {
+  body {
+    padding: 0 5rem;
+  }
+  main {
+    padding: 0 1.5rem;
+  }
+}
+
+
+
 :root{
   --themeRed: #F54748;
   --themeRedOpacity: #f54747ce;

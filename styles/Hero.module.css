@@ -21,6 +21,7 @@
   font-style: 0.8rem;
   color: var(--themeRed);
   font-weight: bold;
+  font-family: 'Popins', sans-serif;
 }
 
 .cherryDiv:hover{
@@ -36,14 +37,12 @@
   font-size: 4rem;
   font-weight: bold;
 }
-.heroText {
-  margin-right: 30px;
-}
 
 .miniText {
   width: 70%;
   color: var(--gray);
   font-weight: 600;
+  font-family: 'Popins', sans-serif;
 }
 
 /* right side */
@@ -121,6 +120,7 @@
   background-color: white;
   box-shadow: var(--shadow);
   color: var(--themeRed);
+  font-family: 'Dancing Script', sans-serif;
 }
 
 /* responsive for maximum width 1440px */

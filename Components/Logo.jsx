@@ -7,7 +7,7 @@ export default function Logo() {
     <div className={css.logo}>
       <Image src={logo} alt="" width={50} height={50} />
       <span>
-        Slice<span>Pizza</span>
+        SLICE<span>PIZZA</span>
       </span>
     </div>
   );

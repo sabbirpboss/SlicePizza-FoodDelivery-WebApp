@@ -104,3 +104,21 @@
   color: var(--themeRed);
   border: 2px solid var(--themeRed);
 }
+
+/* hidePayBtnWhenShowed */
+.hidePayBtnWhenShowed {
+  color: var(--themeRed);
+  border-left: 3px solid var(--gray);
+  font-size: 1.1rem!important;
+  padding-left: 1rem;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.hidePayBtnWhenShowed>span::after, .hidePayBtnWhenShowed>span::before{
+  color: var(--themeRed);
+  content: "''";
+}
+

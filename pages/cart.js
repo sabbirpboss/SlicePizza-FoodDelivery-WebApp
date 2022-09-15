@@ -149,7 +149,13 @@ export default function Cart() {
                 Pay Now
               </button>
             </div>
-          ) : null}
+          ) : (
+            <span className={css.hidePayBtnWhenShowed}>
+              Please, Give us some Time to Complete your Previous Order.
+              <br />
+              <span>Then you can order again ☺</span>
+            </span>
+          )}
         </div>
 
         <Toaster />

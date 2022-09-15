@@ -29,5 +29,6 @@
 }
 
 .social > * {
-  fill: var(--themeRed);
+  color: var(--themeRed) !important;
+  cursor: pointer;
 }

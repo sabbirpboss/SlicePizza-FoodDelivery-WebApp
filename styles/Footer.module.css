@@ -23,6 +23,10 @@
   font-weight: bold;
 }
 
+.footer> :nth-child(3){
+  margin-left: -15px;
+}
+
 .social {
   display: flex;
   gap: 1rem;

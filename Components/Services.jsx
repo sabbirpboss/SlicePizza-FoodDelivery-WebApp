@@ -6,7 +6,7 @@ import s3 from "./../assets/s3.png";
 
 export default function Services() {
   return (
-    <>
+    <div>
       <div className={css.heading}>
         <span>WHAT WE SERVE</span>
         <span>Your Favourite Food</span>
@@ -51,6 +51,6 @@ export default function Services() {
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 }

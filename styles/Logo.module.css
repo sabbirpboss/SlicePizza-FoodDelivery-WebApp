@@ -1,22 +1,22 @@
 .logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 0.5rem;
-    flex: 1;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  flex: 1;
+}
 
-  .logo:hover{
-    cursor: pointer;
-  }
-  
-  .logo > span {
-    font-family: 'Popins', sans-serif;
-    font-weight: bold;
-    text-transform: lowercase;
-    font-size: 1.5rem;
-    color: #f54748;
-    /* text-shadow: -1px 1px 3px #ffd54f; */
-    
-  font-family: 'Dancing Script', sans-serif;
-  }
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo > span {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  color: #f54748;
+  /* text-shadow: -1px 1px 3px #ffd54f; */
+
+  font-family: "Dancing Script", sans-serif;
+}

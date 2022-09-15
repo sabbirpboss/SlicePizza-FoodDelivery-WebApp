@@ -11,7 +11,7 @@ export default function Home({pizzas}) {
 
   // console.log(pizzas);
   return (
-    <>
+    <div>
       <Header />
       <div className={css.container}>
         <Head>
@@ -27,7 +27,7 @@ export default function Home({pizzas}) {
         </main>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 

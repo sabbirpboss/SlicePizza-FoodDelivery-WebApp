@@ -21,10 +21,10 @@
   font-style: 0.8rem;
   color: var(--themeRed);
   font-weight: bold;
-  font-family: 'Popins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.cherryDiv:hover{
+.cherryDiv:hover {
   transform: scale(1.5);
   margin-left: 5rem;
   cursor: default;
@@ -42,7 +42,7 @@
   width: 70%;
   color: var(--gray);
   font-weight: 600;
-  font-family: 'Popins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* right side */
@@ -121,7 +121,7 @@
   box-shadow: var(--shadow);
   color: rgb(59, 208, 59);
   font-size: 1.2rem;
-  font-family: 'Dancing Script', sans-serif;
+  font-family: "Dancing Script", sans-serif;
 }
 
 /* responsive for maximum width 1440px */
